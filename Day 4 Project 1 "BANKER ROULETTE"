@@ -1,0 +1,13 @@
+names = names_string.split(", ")
+# The code above converts the input into an array seperating
+#each name in the input by a comma and space.
+# 🚨 Don't change the code above 👆
+import random
+
+# Generate a random index within the range of the length of the names list
+random_index = random.randint(0, len(names) - 1)
+
+# Select the name at the randomly generated index
+selected_name = names[random_index]
+
+print(f"{selected_name} is going to buy the meal today!")
